@@ -358,8 +358,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/creek/proprietary/vendor/lib64/vendor.qti.hardware.secureprocessor.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.secureprocessor.common@1.0.so
 
 PRODUCT_PACKAGES += \
-    compatibility_matrix.xml \
-    manifest.xml \
     android.hardware.boot@1.2.xml \
     android.hardware.graphics.mapper-impl-qti-display.xml \
     android.hardware.health-service.qti.xml \
@@ -373,12 +371,9 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti.xml \
     android.hardware.usb.gadget@1.1-service.xml \
     android.hardware.usb@1.2-service.xml \
-    android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \
     power.xml \
     qtiradio-saidl.xml \
     vendor.qti.hardware.display.allocator-service.xml \
-    vendor.qti.hardware.display.composer-service.xml \
     vendor.qti.hardware.lights.service.xml \
     vendor.qti.hardware.perf.xml
